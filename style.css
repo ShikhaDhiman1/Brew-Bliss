@@ -1,0 +1,192 @@
+/* Import new fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito:wght@300;400;600&display=swap');
+
+/* Base styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2c2c2c;
+    background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDd8fGNvZmZlZXxlbnwwfHx8fDE2OTkwODk3Njk&ixlib=rb-4.0.3&q=80&w=1600') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header styling */
+header {
+    background: rgba(60, 34, 34, 0.85);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px; /* Increased padding for a spacious look */
+    border-bottom: 5px solid #a5673f;
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 3.5rem;
+    margin: 0 0 15px 0; /* Clearer spacing */
+    text-shadow: 12px 12px 15px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #3c1e1e;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0; /* Adjusted padding for less height */
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px; /* Reduced space between items */
+}
+
+nav ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 15px; /* More compact padding */
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Nunito', sans-serif;
+    /* border-radius: 5px;  */
+}
+
+nav ul li a:hover {
+    background-color: rgba(165, 103, 63, 0.3);
+    color: #fff;
+}
+
+/* Section styling */
+section {
+    padding: 20px 50px; /* Increased vertical padding for better spacing */
+    background: rgba(255, 255, 255, 0.95);
+    margin: 30px auto;
+    max-width: 85%; /* Constrained width for better layout */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 2.5rem; /* Adjusted font size */
+    color: #5e3627;
+    margin-bottom: 20px;
+    /* border-bottom: 1px solid #3c1e1e; */
+    box-shadow: 0px 12px 14px rgba(70, 43, 33, 0.8);
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #4d3d36;
+    text-align: justify; /* Justified text for cleaner look */
+    margin-bottom: 20px; /* Space after paragraphs */
+}
+
+.image-container {
+    text-align: center; 
+    margin: 20px 0; /* Margin above and below the image */
+}
+
+.image-container img {
+    display: inline-block;
+    max-width: 90%; /* More responsive */
+    border-radius: 15px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0,0.7);
+    /* border: 1px solid #a5673f; */
+}
+
+button {
+    display: block;
+    margin: 40px auto; /* Increased margin for spacing */
+    background-color: #a5673f;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #7f4930;
+    transform: scale(1.05);
+}
+
+#special {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #5e3627;
+    margin-top: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 30px auto; /* Space around the form */
+    font-family: 'Nunito', sans-serif;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5e3627;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+    border-color: #a5673f;
+}
+
+form input[type="submit"] {
+    background-color: #3c1e1e;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-family: 'Nunito', sans-serif;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a5673f;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3c1e1e;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}

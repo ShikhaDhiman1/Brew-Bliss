@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Bliss - Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Brew Bliss</h1>
+        <p>Your perfect coffee getaway</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Brew Bliss is a cozy coffee shop that offers a serene escape from the hustle of everyday life. Nestled in the heart of the city, our shop is a haven for coffee lovers seeking unique flavors and handcrafted brews.</p>
+        <p>Our story started with a passion for exceptional coffee and a commitment to creating a welcoming environment. We source our beans from the finest farms to ensure each cup brings joy and warmth to your day.</p>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coffee shop interior">
+        </div>            
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <p>From classic favorites to seasonal specialties, we offer a variety of drinks and treats that cater to every taste.</p>
+        <ul>
+            <li><strong>Espresso:</strong> Rich and bold, made with freshly ground beans.</li>
+            <li><strong>Latte:</strong> Creamy and smooth, with a perfect balance of espresso and milk.</li>
+            <li><strong>Cappuccino:</strong> Frothy and indulgent, topped with a sprinkle of cocoa powder.</li>
+            <li><strong>Mocha:</strong> A delightful mix of chocolate and coffee, topped with whipped cream.</li>
+            <li><strong>Fresh Pastries:</strong> Baked daily, including croissants, muffins, and scones.</li>
+        </ul>
+        <button onclick="displaySpecial()">See Today’s Special</button>
+        <p id="special"></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Whether it's feedback, inquiries, or just a friendly hello, feel free to reach out.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Brew Bliss. All rights reserved. Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDd8fGNvZmZlZXxlbnwwfHx8fDE2OTkwODk3Njk&ixlib=rb-4.0.3&q=80&w=1600') no-repeat center center fixed;
+     -->
